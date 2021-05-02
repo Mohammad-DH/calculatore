@@ -1,0 +1,27 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #96c0fdce, #77d3fdd0, #77d3fdd0, #a7f5ff9d, #62fdf5d0, #2cf8ebe5, #33f1e1da);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Night {
+  background-image: linear-gradient(to right top, #bdbbbbb7, #aaa9a9bb, #8f8e8ede, #6b6a6a, #626262);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  pointer-events: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}

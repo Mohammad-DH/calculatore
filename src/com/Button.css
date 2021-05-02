@@ -1,0 +1,74 @@
+.num {
+    background-image: radial-gradient(#8fffff, #00eaff, #68d3fd, #8ad0ff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    transition: all .2s linear;
+}
+
+.num:hover {
+    background-image: radial-gradient(#70c9c9, #03c2d3, #50a6c9, #6ea5ca);
+    transform: scale(.95);
+    transition: all .2s linear;
+}
+
+
+.num-Night {
+
+    background-image: radial-gradient(#89c6ff, #5296fd);
+}
+
+.op {
+    background-color: #d2691e;
+}
+
+
+.op,
+.num {
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+.R-op {
+
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    margin-left: 5px;
+    margin-top: 5px;
+    transition: .2s linear;
+
+}
+
+.R-op:hover {
+    transform: scale(1.1);
+    font-size: 110%;
+}
+
+
+
+.R-op:first-of-type {
+    border-top: 0px solid rgba(0, 0, 0, 0);
+}
+
+.image {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.display {
+    display: none;
+}
